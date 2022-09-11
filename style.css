@@ -1,0 +1,19 @@
+
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: rgb(157, 46, 46);
+}
+
+canvas{
+    animation-name: Abby;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Abby{
+    from{box-shadow: 1px 1px 38px black;}
+    to{box-shadow: 1px 1px 38px rgb(6, 6, 6);}
+}
